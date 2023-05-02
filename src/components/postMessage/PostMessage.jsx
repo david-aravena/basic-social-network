@@ -15,6 +15,9 @@ const PostMessage = () => {
     }
 
     setMessages([...messages, message])
+
+    e.target.user.value = "";
+    e.target.message.value= "";
   }
 
   const functions = {
