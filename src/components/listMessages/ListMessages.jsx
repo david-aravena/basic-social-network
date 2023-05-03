@@ -11,7 +11,7 @@ const ListMessages = () => {
       {messages.length > 0 ?
         <ListMessagesUI messages={messages} />
       :
-        <h2>No hay mensajes publicados</h2>
+        <h2 style={{color: "white"}}>No hay mensajes publicados</h2>
       }
     </>
   )

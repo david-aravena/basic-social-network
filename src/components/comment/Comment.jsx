@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './css/comment.css'
 
 function Comment() {
   const [comment, setComment] = useState([]);
@@ -16,15 +17,17 @@ function Comment() {
 
   return (
     <>
-      {comment.length > 0 && 
-        comment.map((comentario) => {
-          return(
-            <ul>
-              <li>{comentario}</li>
-            </ul>
-          )
-        })
-      }
+      <div className="comment-container">
+        {comment.length > 0 && 
+          comment.map((comentario) => {
+            return(
+              <ul>
+                <li>{comentario}</li>
+              </ul>
+            )
+          })
+        }
+      </div>
       
       {showComment ?
         <form onSubmit={handleSubmit}>
@@ -32,7 +35,7 @@ function Comment() {
           <button type="submit">Comentar</button>
         </form>
       :
-        <button onClick={handleCommentClick}>Dejar comentario</button>
+        <button className="set-comment" onClick={handleCommentClick}>Dejar comentario</button>
       }
     </>
   );

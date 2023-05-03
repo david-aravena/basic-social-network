@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: rgb(37, 37, 37);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Roboto-light';
+  src: url('/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+

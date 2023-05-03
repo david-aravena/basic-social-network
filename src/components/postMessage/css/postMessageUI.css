@@ -1,0 +1,17 @@
+.form-message-container{
+  display: flex;
+  justify-content: center;
+}
+
+.form_message{
+  background: rgb(60, 60, 60); 
+  padding: 0 5rem;
+}
+
+.input-name-container{
+  margin: 10px 0;
+}
+
+.input-message-container{
+  margin: 10px 0;
+}

@@ -1,0 +1,13 @@
+.set-comment{
+  background: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 2rem;
+  color: white;
+  font-family: 'Roboto-light', sans-serif;
+}
+
+.comment-container ul{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
